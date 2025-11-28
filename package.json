@@ -1,0 +1,32 @@
+{
+  "name": "storyspark-kids",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "homepage": "https://yingqian1985-bit.github.io/storyspark-kids/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@google/genai": "^0.2.0",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

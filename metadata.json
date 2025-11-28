@@ -1,0 +1,7 @@
+{
+  "name": "StorySpark Kids",
+  "description": "An AI-powered interactive picture book creator for children. Generate stories, act them out, and create voice-over animations.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
